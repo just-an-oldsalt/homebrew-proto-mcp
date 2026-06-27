@@ -18,8 +18,8 @@
 # existing user's keychain service ID + LaunchAgent label).
 
 cask "proto-mcp" do
-  version "1.0.0"  # release.sh replaces on tag (e.g. "1.0.0")
-  sha256 "bc150c37f5a956977ca71683d7821a8b603285c5209f42bbbfaf4452cc018a6f" # release.sh replaces with the artifact sha256
+  version "1.0.2"  # release.sh replaces on tag (e.g. "1.0.0")
+  sha256 "2fe5e379eefce88200bff63836bc8aa0d9d47eafb8c1f2b54a58f79a8afff3dc" # release.sh replaces with the artifact sha256
 
   url "https://github.com/just-an-oldsalt/proto-mcp/releases/download/v#{version}/proto-mcp-#{version}.tar.gz"
   name "proto-mcp"
